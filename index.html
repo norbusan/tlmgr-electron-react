@@ -2,18 +2,12 @@
 <html>
   <head>
     <title>electron es6 react boilerplate</title>
+    <script>
+      require('babel-register');
+      require('./scripts/main');
+    </script>
   </head>
 
   <body>
   </body>
-
-  <script>
-    // install babel hooks in the renderer process
-    require('babel/register');
-
-    var React = require('react');
-    var Main = require('./views/main.jsx');
-
-    React.render(React.createElement(Main, null), document.body);
-  </script>
 </html>

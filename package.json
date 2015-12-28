@@ -2,11 +2,19 @@
   "name": "electron-es6-react",
   "version": "0.1.0",
   "main": "bootstrapper.js",
+  "license": "MIT",
+  "repository": "b52/electron-es6-react",
+  "scripts": {
+    "start": "electron ."
+  },
   "dependencies": {
     "babel-preset-es2015": "^6.3.13",
     "babel-preset-react": "^6.3.13",
     "babel-register": "^6.3.13",
     "react": "*",
     "react-dom": "^0.14.3"
+  },
+  "devDependencies": {
+    "electron-prebuilt": "^0.36.0"
   }
 }

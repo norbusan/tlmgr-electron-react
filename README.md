@@ -11,7 +11,7 @@ real entry point `main.js`. This is necessary to allow `main.js` to make use of
 Babel's features.
 
 The renderer entry point `index.html` does basically the same, but loads the
-`views/main.jsx` component and renders it into the `body`.
+`scripts/main.js` file, which renders the `views/main.jsx` component into the `body`.
 
 ## Installation
 

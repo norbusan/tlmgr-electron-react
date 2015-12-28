@@ -19,7 +19,7 @@ The renderer entry point `index.html` does basically the same, but loads the
 git clone https://github.com/b52/electron-es6-react.git
 cd electron-es6-react
 npm install
-electron .
+npm start
 ```
 
 [ES6]: http://exploringjs.com/

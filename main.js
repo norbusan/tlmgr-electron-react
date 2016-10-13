@@ -1,5 +1,4 @@
-import app from 'app';
-import BrowserWindow from 'browser-window';
+import { app, BrowserWindow } from 'electron';
 
 let mainWindow = null;
 

@@ -6,7 +6,7 @@ without depending on any package manager besides `npm`.
 
 ## How?
 
-The main entry point is `boostrapper.js`, which registers Babel and loads the
+The main entry point is `bootstrapper.js`, which registers Babel and loads the
 real entry point `main.js`. This is necessary to allow `main.js` to make use of
 Babel's features.
 

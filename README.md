@@ -6,9 +6,9 @@ without depending on any package manager besides `npm`.
 
 ## How?
 
-The main entry point is `bootstrapper.js`, which registers Babel and loads the
-real entry point `main.js`. This is necessary to allow `main.js` to make use of
-Babel's features.
+The Node and Electron binaries both take a parameter `-r` that automatically
+requires a module before the rest of the code.  The `npm start` script is
+modified using this, which registers Babel and loads the entry point `main.js`.
 
 The renderer entry point `index.html` does basically the same, but loads the
 `scripts/main.js` file, which renders the `views/main.jsx` component into the `body`.

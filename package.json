@@ -1,11 +1,11 @@
 {
   "name": "electron-es6-react",
   "version": "0.1.0",
-  "main": "bootstrapper.js",
+  "main": "main.js",
   "license": "MIT",
   "repository": "b52/electron-es6-react",
   "scripts": {
-    "start": "electron ."
+    "start": "electron -r babel-register ."
   },
   "dependencies": {
     "babel-preset-es2015": "^6.3.13",

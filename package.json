@@ -1,9 +1,9 @@
 {
-  "name": "electron-es6-react",
-  "version": "0.1.0",
+  "name": "tlmgr-electron-react",
+  "version": "0.0.1",
   "main": "main.js",
   "license": "MIT",
-  "repository": "b52/electron-es6-react",
+  "repository": "norbusan/tlmgr-electron-react",
   "scripts": {
     "start": "electron -r babel-register ."
   },
@@ -12,6 +12,7 @@
     "babel-preset-react": "^6.3.13",
     "babel-register": "^6.3.13",
     "react": "^15.3.2",
+    "react-bootstrap-table": "^4.1.1",
     "react-dom": "^15.3.2"
   },
   "devDependencies": {
